@@ -4,7 +4,7 @@ An interactive multi-step Valentine's Day web application built with React, Type
 
 ## Features
 
-- **Authentication Page**: Name-based login (Nikita or Chinu)
+- **Authentication Page**: Name-based login (from .env variable)
 - **3-Question Quiz**: Interactive quiz with animations
 - **Proposal Page**: Romantic proposal with dynamic button scaling
 - **Final Message**: Beautiful ending screen
@@ -18,8 +18,7 @@ npm install
 
 2. The app uses environment variables for allowed names. Check `.env` file:
 ```
-VITE_ALLOWED_NAME_1=Nikita
-VITE_ALLOWED_NAME_2=Chinu
+VITE_ALLOWED_NAME_1=xyz
 ```
 
 ## Development

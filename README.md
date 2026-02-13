@@ -1,50 +1,81 @@
-# Valentine's Quest App
+# Valentine's Quest 💖
 
-An interactive multi-step Valentine's Day web application built with React, TypeScript, Tailwind CSS, and Framer Motion.
+A beautiful, interactive, and romantic multi-step web application built to create a special Valentine's Day experience.
 
-## Features
+![Valentine's Question Preview](public/vite.svg)
 
-- **Authentication Page**: Name-based login (from .env variable)
-- **3-Question Quiz**: Interactive quiz with animations
-- **Proposal Page**: Romantic proposal with dynamic button scaling
-- **Final Message**: Beautiful ending screen
+## ✨ Features
 
-## Setup
+-   **🔐 Authentication System**: Name-based login system (customizable for your partner).
+-   **❓ Interactive Quiz**: A fun 3-question quiz with animations and feedback.
+-   **💍 Proposal Page**: A "Will You Be Mine?" page with dynamic "Yes" and "No" buttons (try clicking "No"! 😉).
+-   **🎵 Background Music**: Persistent romantic background music player.
+-   **🎉 Celebration**: A beautiful final page with confetti and a heartfelt message.
+-   **📱 Responsive**: Works perfectly on mobile and desktop.
 
-1. Install dependencies:
-```bash
-npm install
+## 🛠️ Tech Stack
+
+-   **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+-   **Effects**: react-confetti
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+-   Node.js (v18 or higher)
+-   npm or yarn
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/valentine-web.git
+    cd valentine-web
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Configure Environment**
+    Create a `.env` file in the root directory:
+    ```env
+    VITE_ALLOWED_NAME_1=Nikita
+    VITE_ALLOWED_NAME_2=Chinu
+    ```
+
+4.  **Run Development Server**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+## 🎵 Customizing Music
+
+To add your own background music:
+1.  Place your MP3 file in `public/music/`.
+2.  Rename it to `background.mp3`.
+
+## 📁 Project Structure
+
+```
+valentine-web/
+├── public/              # Static assets (music, icons)
+├── src/
+│   ├── components/      # React components (Pages, Music Player)
+│   ├── App.tsx          # Main application logic
+│   └── main.tsx         # Entry point
+└── index.html           # HTML entry point with SEO tags
 ```
 
-2. The app uses environment variables for allowed names. Check `.env` file:
-```
-VITE_ALLOWED_NAME_1=xyz
-```
+## 📄 License
 
-## Development
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Run the development server:
-```bash
-npm run dev
-```
+---
 
-## Build
-
-Build for production:
-```bash
-npm run build
-```
-
-Preview production build:
-```bash
-npm run preview
-```
-
-## Tech Stack
-
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS v4
-- Framer Motion
-- react-confetti
+*Made with ❤️ for Valentine's Day*

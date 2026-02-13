@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the14feb.netlify.app/sitemap.xml
